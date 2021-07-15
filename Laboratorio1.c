@@ -52,7 +52,7 @@ int main() {
     }
     printf("]\n"); 
     
-    //verifica se os valores finais estão corretos 
+    //teste: verifica se os valores finais estão corretos 
     for(int i=0; i<NTHREADS; i++){
         if(sqrt(elementos[i]) != i+1){
             printf("--ERRO: potencia errada"); exit(-1);
