@@ -60,5 +60,4 @@ int main() {
     }
     
     printf("--Execucao bem sucedida\n");
-    
 }
