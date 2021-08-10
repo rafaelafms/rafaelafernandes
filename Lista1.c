@@ -4,9 +4,9 @@
 #include<math.h>
 
 typedef struct{
-  int nthreads; //numero de threads a serem criadas
-  int n; //numero de execucoes
-  int id; //id para definir o tamanho dos blocos
+ 	int nthreads; //numero de threads a serem criadas
+  	int n; //numero de execucoes
+  	int id; //id para definir o tamanho dos blocos
 }
 
 void * tarefa(void *arg){
